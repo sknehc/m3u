@@ -16,8 +16,8 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v2
 
-      - name: '获取m3u列表'
-        run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
+#      - name: '获取m3u列表'
+#        run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
 
       - name: '提交新的源'
         uses: EndBug/add-and-commit@v4
