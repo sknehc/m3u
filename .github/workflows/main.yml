@@ -1,4 +1,4 @@
-name: 'GitHub IPTV 1080 Bot'
+name: '获取最新播放源'
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
     - cron: '0 3 * * *'
 
 jobs:
-  job1:
+  job1: #更新上游仓库源
     runs-on: ubuntu-latest
     steps:
       # 从仓库获取代码
@@ -19,12 +19,49 @@ jobs:
       - name: '获取m3u列表'
         run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
 
-      - name: Commit changes
+      - name: '提交新的源'
         uses: EndBug/add-and-commit@v4
         with:
           author_name: sknehc
           author_email: 1470700599@qq.com
           message: "自动获取上游m3u列表"
           add: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      # 从仓库获取代码
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+
+      - name: '安装 Node.js'
+        uses: actions/setup-node@v1
+        with:
+          # 选择要使用的 node 版本
+          node-version: '14.18.3'
+
+      - name: 安装ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v1
+
+      - name: '安装IPTV filter'
+        run: npm install -g iptv-checker
+
+      - name: '过滤'
+        run: echo "#EXTM3U" > tmp.m3u8 && python filter.py $(pwd)
+
+      - name: 'IPTV检查'
+        run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u8 -o result
+
+      - name: '移动iptv-checker检查结果'
+        run: mv cn_1080/online.m3u cn_1080/cn1080.m3u
+
+      - name: '部署GitHubpage'
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          # 部署到 gh 分支
+          target_branch: main
+          # 部署目录为脚本的输出目录
+          build_dir: result
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
