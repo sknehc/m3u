@@ -3,6 +3,7 @@ CCTV
 卫视
 斗鱼
 (1080p)
+
 #黑名单=================================================================================
 徐州
 惠州
@@ -59,15 +60,4 @@ tvg-language="English"
 红河综合台
 
 #额外名单===========================================================================================
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU刘亦菲影视展播
-http://117.148.179.134/PLTV/88888888/224/3221231787/index.m3u8
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU盗墓方法论
-http://117.148.179.134/PLTV/88888888/224/3221231652/index.m3u8
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU试胆大会
-http://117.148.179.134/PLTV/88888888/224/3221231672/index.m3u8
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU高能烧脑时刻
-http://117.148.179.134/PLTV/88888888/224/3221231504/index.m3u8
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU杨幂作品集
-http://117.148.179.134/PLTV/88888888/224/3221231556/index.m3u8
-#EXTINF:-1 group-title="MIGU电影轮播" tvg-logo="https://s9.rr.itc.cn/r/wapChange/20171_22_18/a4a8u5974032374500.jpeg",MIGU文艺娱乐
-http://117.148.179.134/PLTV/88888888/224/3221231570/index.m3u8
+
