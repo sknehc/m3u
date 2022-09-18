@@ -70,6 +70,6 @@ if __name__ == "__main__":
     for i in sourcefiles:
         eList = OrderedDict()
         bList = {}
-        opnWBEList(sys.argv[1]+"/m3u/whiteblack.list")
+        opnWBEList(sys.argv[1]+"/m3u/black-extra.list")
         writrRlt(i, tregetfile)
         writeExtraRlt(tregetfile)
