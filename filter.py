@@ -1,7 +1,6 @@
-import sys
 from collections import OrderedDict
 import os
-
+import sys
 # 读取黑名单和额外名单
 def opnWBEList(WBEList):
     with open(WBEList, encoding='utf-8',mode='r') as fin:
