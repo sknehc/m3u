@@ -47,7 +47,7 @@ jobs:
         run: npm install -g iptv-checker
 
       - name: '过滤'
-        run: echo "#EXTM3U" > tmp.m3u8 && python filter.py $(pwd)
+        run: echo "#EXTM3U" > tmp.m3u && python filter.py $(pwd)
 
       - name: 'IPTV检查'
         run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u -o result
