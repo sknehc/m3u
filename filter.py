@@ -86,7 +86,7 @@ if __name__ == "__main__":
     wbePath = workpath+"/white-black-extra.list"  # 白名单文件
     tregetfile = workpath+"/tmp.m3u"  # 结果文件
     for i in getRawFileList(sourcePath):
-        aList = {}
+        wList = {}
         bList = {}
         eList = {}
         opnWBEList(wbePath)
