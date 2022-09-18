@@ -1,0 +1,30 @@
+name: 'GitHub IPTV 1080 Bot'
+
+on:
+  push:
+    # push 到main分支时触发
+    branches: [main]
+  schedule:
+    # 每天触发一次
+    - cron: '0 3 * * *'
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      # 从仓库获取代码
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+
+      - name: '获取m3u列表'
+        run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: sknehc
+          author_email: 1470700599@qq.com
+          message: "AUTO GENERATE README"
+          add: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
