@@ -64,11 +64,11 @@ def getRawFileList(path):
     return files
 
 if __name__ == "__main__":
-    sourcefiles = getRawFileList(sys.argv[1]+"/m3u/source")
+    sourcefiles = getRawFileList(sys.argv[1]+"/source")
     tregetfile = sys.argv[1]+"/tmp.m3u8"
     for i in sourcefiles:
         eList = OrderedDict()
         bList = {}
-        opnWBEList(sys.argv[1]+"/m3u/black-extra.list")
+        opnWBEList(sys.argv[1]+"/black-extra.list")
         writrRlt(i, tregetfile)
         writeExtraRlt(tregetfile)
