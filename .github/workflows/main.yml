@@ -24,7 +24,7 @@ jobs:
         with:
           author_name: sknehc
           author_email: 1470700599@qq.com
-          message: "AUTO GENERATE README"
+          message: "自动获取上游m3u列表"
           add: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
