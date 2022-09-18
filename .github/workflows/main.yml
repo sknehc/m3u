@@ -1,5 +1,4 @@
-name: '获取最新播放源'
-
+name: '自动最新播放源'
 on:
   push:
     # push 到main分支时触发
