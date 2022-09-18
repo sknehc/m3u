@@ -51,7 +51,7 @@ jobs:
         run: echo "#EXTM3U" > tmp.m3u8 && python filter.py $(pwd)
 
       - name: 'IPTV检查'
-        run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u8 -o ./docs
+        run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u -o ./docs
 
       - name: '移动iptv-checker检查结果'
         run: mv ./docs/online.m3u ./docs/cn.m3u8

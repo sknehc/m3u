@@ -65,7 +65,7 @@ def getRawFileList(path):
 
 if __name__ == "__main__":
     sourcefiles = getRawFileList(sys.argv[1]+"/source")
-    tregetfile = sys.argv[1]+"/tmp.m3u8"
+    tregetfile = sys.argv[1]+"/tmp.m3u"
     for i in sourcefiles:
         eList = OrderedDict()
         bList = {}
