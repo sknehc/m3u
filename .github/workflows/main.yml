@@ -54,14 +54,12 @@ jobs:
         run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u8 -o result
 
       - name: '移动iptv-checker检查结果'
-        run: mv cn_1080/online.m3u cn_1080/cn1080.m3u
+        run: mv result/online.m3u result/cn.m3u8
 
       - name: '部署GitHubpage'
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          # 部署到 gh 分支
           target_branch: main
-          # 部署目录为脚本的输出目录
           build_dir: result
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
