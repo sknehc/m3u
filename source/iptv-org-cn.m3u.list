@@ -33,6 +33,8 @@ http://112.25.48.68/live/program/live/cctv4/1300000/mnf.m3u8
 http://111.63.117.13:6060/030000001000/CCTV-4/CCTV-4.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CCTV-4中文国际 (576p)
 http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225781/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CCTV-4中文国际 (576p) [Not 24/7]
+http://183.207.248.71/gitv/live1/CCTV-4/CCTV-4
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CCTV-4中文国际 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CCTV-4中文国际 (1080p)
@@ -64,7 +66,7 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225632/index.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/f0/CCTV-7_Logo.png" group-title="Undefined",CCTV-7国防军事 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225624/index.m3u8
 #EXTINF:-1 tvg-id="CCTV8.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png" group-title="Undefined",CCTV-8电视剧 (1080p)
-http://39.134.115.163:8080/PLTV/88888910/224/3221225635/index.m3u8
+http://39.134.115.163:8080/PLTV/88888910/224/3221225631/index.m3u8
 #EXTINF:-1 tvg-id="CCTV9.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/11/CCTV-9_Logo.png" group-title="Documentary",CCTV-9纪录 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225646/index.m3u8
 #EXTINF:-1 tvg-id="CCTV10.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/fd/CCTV-10_Logo.png" group-title="Education",CCTV-10科教 (1080p)
@@ -106,8 +108,6 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 https://livecdn.fptplay.net/sdb/cnbc_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CNC中文 (720p) [Not 24/7]
 http://source07.v.news.cn/live/CNC_CN/playlist.m3u8
-#EXTINF:-1 tvg-id="DragonTVInternational.cn" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dragon-tv-cn.png" group-title="Undefined",Dragon TV International (360p)
-http://210.210.155.37/x6bnqe/s/s29/index.m3u8
 #EXTINF:-1 tvg-id="DunaWorld.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duna_World_HD_2012.svg/512px-Duna_World_HD_2012.svg.png" group-title="Undefined",Duna World (480p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://mediaklikk.hu/duna-world-elo/
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English (1080p)
@@ -299,8 +299,6 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",东南卫视 (360p)
 http://125.210.152.18:9090/live/DNWSHD_H265.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",东南卫视 (576p)
-http://183.207.249.15/PLTV/4/224/3221225816/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",东南卫视 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225657/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",东南卫视 (1080p)
@@ -349,8 +347,6 @@ http://ott.js.chinamobile.com/PLTV/3/224/3221227027/index.m3u8
 http://112.25.48.68/live/program/live/zgqx/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",中国教育1 (1080p) [Not 24/7]
 http://39.134.39.39/PLTV/88888888/224/3221226282/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",中国气象 (576p) [Not 24/7]
-http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",中天新聞 (1080p) [Not 24/7]
 http://seb.sason.top/sc/ztxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",中視新聞 (1080p) [Geo-blocked]
@@ -467,6 +463,8 @@ http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8
 http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",凤台文化生活 (576p) [Not 24/7]
 http://60.175.115.119:1935/live/wenhua/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",凤台综合 (576p) [Not 24/7]
+http://60.175.115.119:1935/live/zonghe/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",利川公共 (180p) [Not 24/7]
 http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w1847269952_b204800.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",利川公共 (576p) [Geo-blocked]
@@ -490,8 +488,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225674/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
-http://183.207.248.71/cntv/live1/beijingstv/beijingstv
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=30&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
 http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=30&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
@@ -513,6 +509,8 @@ http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221227436/index.m3u8
 http://223.110.245.173/PLTV/4/224/3221227390/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
 http://ott.js.chinamobile.com/PLTV/3/224/3221225574/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p)
+http://183.207.248.71/cntv/live1/beijingstv/beijingstv
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 (1080p) [Not 24/7]
 http://112.25.48.68/live/program/live/bjwshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",北京卫视 [Not 24/7]
@@ -642,11 +640,11 @@ http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (540p)
 http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (576p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (576p)
 http://183.207.248.71/gitv/live1/SCWS/SCWS
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (576p)
 http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (576p)
-http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川卫视 (1080p)
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=3&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",四川妇女儿童 (720p) [Not 24/7]
@@ -695,6 +693,8 @@ http://61.244.22.5/ch3/ch3.live/playlist.m3u8
 http://223.110.245.169/PLTV/4/224/3221227026/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",如东新闻综合 (480p) [Not 24/7]
 http://live.rdxmt.com/channels/rudong/news/flv:sd/live
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",孟州电视台 (1080p) [Not 24/7]
+http://live.dxhmt.cn:9081/tv/10883-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",宁夏卫视 (540p)
 http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",宁夏卫视 (576p)
@@ -728,6 +728,8 @@ http://183.207.249.5/PLTV/4/224/3221225800/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (576p)
 http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221225800/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225691/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225737/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p)
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=2&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
@@ -737,12 +739,10 @@ http://183.207.249.15/PLTV/3/224/3221225634/index.m3u8
 http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221225634/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p)
 http://223.110.254.203:6610/cntv/live1/HD-8000k-1080P-anhuistv/HD-8000k-1080P-anhuistv/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p)
-http://39.134.115.163:8080/PLTV/88888910/224/3221225691/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p) [Not 24/7]
-http://zbbf2.ahtv.cn/live/749.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p) [Not 24/7]
 http://183.207.248.71/cntv/live1/anhuistv/anhuistv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p) [Not 24/7]
+http://zbbf2.ahtv.cn/live/749.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽卫视 (1080p) [Timeout]
 http://112.25.48.68/live/program/live/ahwshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",安徽小说评书广播 [Geo-blocked]
@@ -923,8 +923,6 @@ http://ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8
 http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",延边新闻综合 [Geo-blocked]
 http://stream2.jlntv.cn/jlyb/sd/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",建安电视台 (1080p) [Not 24/7]
-http://live.dxhmt.cn:9081/tv/11003-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",弈坛春秋 (576p)
 http://223.110.245.139/PLTV/4/224/3221227031/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",张家口一套 (720p) [Not 24/7]
@@ -957,6 +955,8 @@ http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221227389/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",忍者神龟 (480p)
 http://www.alibabapictures.com/movies/shenggui/poyingerchu.mp4
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",房山电视台 (576p)
+https://live.funhillrm.com/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",抚州公共 (270p)
 http://111.75.179.195:30767/video/live_vide2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",撫州綜合頻道 (270p) [Not 24/7]
@@ -1106,9 +1106,9 @@ http://183.207.248.71/cntv/live1/jiangsustv/jiangsustv
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏卫视 (1080p) [Not 24/7]
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏城市 (576p)
-http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221225929/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏城市 (576p)
 http://183.207.248.71/gitv/live1/G_JSCS/G_JSCS
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏城市 (576p)
+http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221225929/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏影视 (576p)
 http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",江苏影视 (576p) [Not 24/7]
@@ -1162,11 +1162,11 @@ http://112.25.48.68/live/program/live/hbws/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (576p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225732/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (576p)
-http://183.207.248.71/gitv/live1/G_HEBEI/G_HEBEI
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (576p)
 http://hbpx.chinashadt.com:2036/live/px4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (576p)
 http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225840/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (576p)
+http://183.207.248.71/gitv/live1/G_HEBEI/G_HEBEI
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北卫视 (1080p)
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=45&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",河北少儿科教 (540p)
@@ -1283,6 +1283,8 @@ http://livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e744
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=114&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",海南州藏語頻道 (480p)
 http://live.hnzzzzzdst.com/channel1/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",海盐新闻 (720p)
+http://haiyan.liveyun.hoge.cn/xwpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",海西州综合 (576p)
 http://stream.haixitv.cn/1/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",涡阳新闻综合 (360p)
@@ -1350,8 +1352,6 @@ http://125.210.152.18:9090/live/HNWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",湖南卫视 (576p)
 http://hbpx.chinashadt.com:2036/live/px5.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",湖南卫视 (576p)
-http://183.207.248.71/gitv/live1/G_HUNAN/G_HUNAN
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",湖南卫视 (576p)
 http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225854/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",湖南卫视 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225704/index.m3u8
@@ -1399,8 +1399,6 @@ http://live.cztv.cc:85/live/xwpd.m3u8
 http://live.cztv.cc:85/live/sjpd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",滁州新闻综合 (450p)
 http://183.167.193.45:1935/live/cztvzh/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",滁州科教 (450p)
-http://183.167.193.45:1935/live/cztvkj/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",滦县综合 (576p)
 http://hblxx.chinashadt.com:2036/live/stream:lx1.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",滦县综艺 (576p)
@@ -1454,9 +1452,9 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225724/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (576p)
 http://117.169.120.140:8080/live/gansustv/.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (576p)
-http://183.207.248.71/gitv/live1/G_GANSU/G_GANSU
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (576p)
 http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=142&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (576p)
+http://183.207.248.71/gitv/live1/G_GANSU/G_GANSU
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (576p) [Not 24/7]
 http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=142&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",甘肃卫视 (1080p)
@@ -1533,6 +1531,8 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",继续教育 (576p)
 http://111.63.117.13:6060/030000001000/G_CETV-2/G_CETV-2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",罗山电视台 (1080p) [Not 24/7]
+http://live.dxhmt.cn:9081/tv/11521-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",置业 (576p)
 http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227037/index.m3u8
 #EXTINF:-1 tvg-id="SinoVision.cn" tvg-logo="https://i.imgur.com/xB9mWqU.png" group-title="Undefined",美国中文电视 (406p) [Not 24/7]
@@ -1632,11 +1632,11 @@ http://zsxj.chinashadt.com:1935/live/xjxw.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辛集生活頻道 (480p) [Not 24/7]
 http://zsxj.chinashadt.com:1935/live/xjsh.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
-http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
 http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
 http://183.207.249.71/PLTV/3/224/3221225566/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (576p)
+http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (720p)
 http://125.210.152.18:9090/live/LNWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",辽宁卫视 (1080p)
@@ -1681,6 +1681,10 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225692/index.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225734/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",重庆卫视 (1080p)
 http://223.110.254.137:6610/cntv/live1/HD-8000k-1080P-chongqingstv/HD-8000k-1080P-chongqingstv/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",金昌公共頻道 (240p) [Geo-blocked]
+http://stream4.liveyun.hoge.cn/ch01/sd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",金昌綜合頻道 (720p) [Geo-blocked]
+http://stream4.liveyun.hoge.cn/ch02/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",金鹰卡通 (576p)
 http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",金鹰卡通 (576p) [Geo-blocked]
@@ -1801,8 +1805,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225736/index.m3u8
 http://183.207.249.36/PLTV/4/224/3221227323/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",黑龙江卫视 (1080p)
 http://223.110.254.143:6610/cntv/live1/HD-8000k-1080P-heilongjiangstv/HD-8000k-1080P-heilongjiangstv/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",黑龙江台
-http://stream3.hljtv.com/hljws2/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",黔西南公共 (288p) [Geo-blocked]
 http://live.qxndt.com/channel3/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",黔西南综合 (288p) [Geo-blocked]
