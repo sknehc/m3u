@@ -688,8 +688,6 @@ http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",徐州贾汪旅游 (576p)
 http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221227389/index.m3u8
-#EXTINF:-1 tvg-id="FangshanTV.cn" tvg-logo="https://i.imgur.com/YyYArWr.png" group-title="Undefined",房山电视台 (576p)
-https://live.funhillrm.com/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",抚州公共 (270p)
 http://111.75.179.195:30767/video/live_vide2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",撫州綜合頻道 (270p) [Not 24/7]
