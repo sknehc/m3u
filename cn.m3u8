@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CCTV4K.cn" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="General",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",洪雅新闻综合 (1080p)
+http://117.172.215.250:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.m3u8
