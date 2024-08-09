@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CCTV4K.cn" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="General",CCTV4K
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
